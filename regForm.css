@@ -1,0 +1,128 @@
+body{
+    margin: 0px;
+    padding: 0px;
+	font-family: sans-serif;
+	background-image: url(bg.png);
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:whitesmoke;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+#hr{
+    background-color: green;
+    width: 100%;
+    height: 2px;
+    z-index: 2;
+    position: fixed;
+    top: 48px;
+}
+#logo{
+    position: fixed;
+    left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    transform: translateY(8px);
+}
+ul li{
+    list-style-type: none;
+    float: left;
+    padding: 0px 70px 0px 40px;
+    font-size: 15px;
+    font-weight: bold;
+    transform: translateX(440px);
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color: orange;
+}
+.all{
+    position: absolute;
+	top: 20%;
+	left:28%;
+	padding: 80px 40px;
+	transform: translate( -50% -50%);
+	width: 500px;
+	height: 600px;
+	box-sizing: border-box;
+	background : rgba(0,0,0,.5);
+}
+.all h2{
+    margin: 0;
+	color: #efed40;
+	text-align: center;
+	transform: translateY(-200%);
+	font-size: 0.9em;
+
+}
+#reg{
+	transform: translate(32%, -100%);
+	font-size: 0.8;
+	color:   #c2c045;
+}
+.all p{
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	color: #fff;
+}
+.all input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.all  input[type="text"],
+.all  input[type="password"]{
+	border:none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.all  input[type="radio"]{
+width: auto;
+
+}
+
+::placeholder{
+	color: rgba(25 25 25 .5);
+}
+.all  input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 14px;
+	background: #ff267e;
+	cursor: pointer;
+	border-radius: 20px;
+	transform: translateY(-10px);
+}
+.all  input[type="submit"]:hover{
+	background:  #efed40;
+	color: #262626;
+}
+.all select{
+	outline: none;
+	width: 100%;
+}
+#da{
+	width: 100%;
+	outline: none;
+}
+.all a{
+	color:coral;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
